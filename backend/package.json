@@ -1,0 +1,36 @@
+{
+  "name": "waitress",
+  "version": "1.0.0",
+  "description": "Waitress Backend",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js --exec babel-node",
+    "serve": "node dist/index.js",
+    "build": "babel src -d dist --source-maps",
+    "clean": "rimraf dist"
+  },
+  "keywords": [
+    "waitress",
+    "graphql",
+    "apollo",
+    "bill",
+    "splitter"
+  ],
+  "author": "Mauricio Chávez Olea",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/polyfill": "^7.4.4",
+    "apollo-server": "^2.6.6",
+    "graphql": "^14.3.1",
+    "rimraf": "^2.6.3"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/node": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "dotenv": "^8.0.0",
+    "eslint": "^6.0.1",
+    "nodemon": "^1.19.1"
+  }
+}
