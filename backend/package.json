@@ -20,7 +20,7 @@
   "license": "MIT",
   "dependencies": {
     "@babel/polyfill": "^7.4.4",
-    "apollo-server": "^2.6.6",
+    "apollo-server": "^2.25.3",
     "graphql": "^14.3.1",
     "rimraf": "^2.6.3"
   },
